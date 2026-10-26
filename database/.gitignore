@@ -1,0 +1,50 @@
+
+# ==========================================
+# Hotelier - PHP/MySQL .gitignore
+# ==========================================
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local database configuration
+config.local.php
+config.local.*
+!config.local.example.php
+
+# Database backups and local exports
+*.sql.bak
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP development and debugging files
+.phpunit.cache/
+.phpunit.result.cache
+
+# Local backup files
+*.bak
+*.old
+*.orig
